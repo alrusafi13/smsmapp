@@ -1,0 +1,173 @@
+import 'category.dart';
+import 'listt_data.dart';
+
+const Categories_data = const [
+  Category(
+    id: 'c1',
+    titl: 'Burger',
+    image: ('images/pr.jpg'),
+  ),
+  Category(
+    id: 'c2',
+    titl: 'Pizza',
+    image: ('images/Rectangle 33.png'),
+  ),
+  Category(
+    id: 'c3',
+    titl: 'Kentuky',
+    image: ('images/Kentucky Chiken.png'),
+  ),
+  Category(
+    id: 'c4',
+    titl: 'Zinger',
+    image: ('images/Zinger Chicken.jpg'),
+  ),
+  Category(
+    id: 'c5',
+    titl: 'Drinks',
+    image: ('images/drrk.jpg'),
+  ),
+];
+
+const Trips_data = const [
+  Trip(
+    id: 'a1',
+    categries: ['c1'],
+    title: 'Beef Burger',
+    sel: '5',
+    iamge: ('images/beefbu.png'),
+  ),
+  Trip(
+    id: 'a2',
+    categries: ['c1'],
+    title: 'Chicken Burger',
+    sel: '4',
+    iamge: ('images/chickenbu.png'),
+  ),
+  Trip(
+    id: 'a3',
+    categries: ['c1'],
+    title: 'Cheese Burger',
+    sel: '6',
+    iamge: ('images/cheesebu.png'),
+  ),
+  Trip(
+    id: 'a4',
+    categries: ['c1'],
+    title: 'Mushroom Burger',
+    sel: '5',
+    iamge: ('images/mushroombu.png'),
+  ),
+  Trip(
+    id: 'b1',
+    categries: ['c2'],
+    title: 'Pizza beef',
+    sel: '12',
+    iamge: ('images/beefpiz.png'),
+  ),
+  Trip(
+    id: 'b2',
+    categries: ['c2'],
+    title: 'Pizza chicken',
+    sel: '12',
+    iamge: ('images/chickenpiz.png'),
+  ),
+  Trip(
+    id: 'b3',
+    categries: ['c2'],
+    title: 'Pizza pepperoni',
+    sel: '12',
+    iamge: ('images/pepperonipiz.png'),
+  ),
+  Trip(
+    id: 'b4',
+    categries: ['c2'],
+    title: 'Pizza veggie',
+    sel: '12',
+    iamge: ('images/veggiepiz.png'),
+  ),
+  Trip(
+    id: 'z1',
+    categries: ['c3'],
+    title: 'Kentucky Chiken',
+    sel: '5',
+    iamge: ('images/kench1.png'),
+  ),
+  Trip(
+    id: 'z2',
+    categries: ['c3'],
+    title: 'Kentucky Spaice',
+    sel: '5',
+    iamge: ('images/kensp2.png'),
+  ),
+  Trip(
+    id: 'z3',
+    categries: ['c3'],
+    title: 'Kentucky Herbs',
+    sel: '6',
+    iamge: ('images/kenher3.png'),
+  ),
+  Trip(
+    id: 'z4',
+    categries: ['c3'],
+    title: 'Kentucky Steak',
+    sel: '7',
+    iamge: ('images/kenst4.png'),
+  ),
+  Trip(
+    id: 'n1',
+    categries: ['c4'],
+    title: 'Zinger Chiken',
+    sel: '5',
+    iamge: ('images/sz1.png'),
+  ),
+  Trip(
+    id: 'n2',
+    categries: ['c4'],
+    title: 'Sausage Sandwich',
+    sel: '6',
+    iamge: ('images/ss22.png'),
+  ),
+  Trip(
+    id: 'n3',
+    categries: ['c4'],
+    title: 'Falafel',
+    sel: '6',
+    iamge: ('images/sf3.png'),
+  ),
+  Trip(
+    id: 'n4',
+    categries: ['c4'],
+    title: 'Class BLT',
+    sel: '7',
+    iamge: ('images/sc4.png'),
+  ),
+  Trip(
+    id: 'd1',
+    categries: ['c5'],
+    title: 'Juice',
+    sel: '2',
+    iamge: ('images/dj1.png'),
+  ),
+  Trip(
+    id: 'd2',
+    categries: ['c5'],
+    title: 'Smoothi',
+    sel: '6',
+    iamge: ('images/2dd2.png'),
+  ),
+  Trip(
+    id: 'd3',
+    categries: ['c5'],
+    title: 'pepsi',
+    sel: '1',
+    iamge: ('images/dpj3.png'),
+  ),
+  Trip(
+    id: 'd4',
+    categries: ['c5'],
+    title: 'Water',
+    sel: '1',
+    iamge: ('images/djw4.png'),
+  ),
+];
